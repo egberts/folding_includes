@@ -1,0 +1,3 @@
+sub-2 statement one;
+include 'test-include-4.isc';
+sub-2 statement two;

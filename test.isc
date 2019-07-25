@@ -1,0 +1,15 @@
+include test-include-1.isc;
+first statement;
+include 'test-include-3.isc';
+include "test-include-3.isc";
+include"test-include-3.isc";
+include test-include-4.isc;
+second statement  ;   # comment  include "not-included";
+third statement; // C++-style  include "not-included";
+fourth statement; /* C-style  include "not-included"; */
+include test-include-2.isc;
+fifth /* C-style comment */ statement;
+sixth /*
+C-style comment // comments  */ statement;
+  seventh statement     ;  # comment //
+  eighth statement  ; //  /* comment */  # comment
